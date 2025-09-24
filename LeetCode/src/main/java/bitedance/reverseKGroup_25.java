@@ -13,7 +13,7 @@ public class reverseKGroup_25 {
              *
              * pre-start-------end-next
              * 每次翻转后，start在最后面，依次更新pre、start、end和next，保持以上顺序
-             * 
+             *
              */
             ListNode dummy=new ListNode(0);
             dummy.next=head;
